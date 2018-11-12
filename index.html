@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hello Pizza</title>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css"/>
+    <!--<link rel="stylesheet" type="text/css" href="css/reset.css"/>-->
+
+    </head>
+<body>
+    <header>
+        <h1>Hello Pizza</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#sabores">Sabores</a></li>
+                <li><a href="#contato">Contato</a></li>
+                <li><a href="https://suap.ifrn.edu.br/accounts/login/" target="_blank">IFRN</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="sabores">
+        <h2>Sabores</h2>
+        <figure>
+                <img src="img\pizza1.png" width="240" height="180">
+                <img src="img\pizza2.png" width="240" height="180">
+        </figure>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>PIZZAS</th>
+                    <th>QUEIJO E MOLHO</th>
+                    <th>SALADA</th>
+                    <th>CARNE</th>
+                    <th>AZEITO/CHAMPGNION</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>MUSSARELA</td>
+                    <td rowspan="6" class="positivo">SIM</td>
+                    <td class="negativo">SIM</td>
+                    <td class="positivo">SIM</td>
+                    <td class="negativo">NÃO</td>
+                </tr>
+                <tr>
+                    <td>CALABRESA</td>
+                    <td class="positivo">SIM</td>
+                    <td class="positivo">SIM</td>
+                    <td class="negativo">NÃO</td>
+                </tr>
+                <tr>
+                    <td>PEPPERGIN</td>
+                    <td class="negativo">NÃO</td>
+                    <td class="negativo">NÃO</td>
+                    <td class="positivo">SIM</td>
+                </tr>
+                <tr>
+                    <td>MARGUERITA</td>
+                    <td class="negativo">NÃO</td>
+                    <td class="positivo">SIM</td>
+                    <td class="positivo">SIM</td>
+                </tr>
+                <tr>
+                    <td>PORTUGUESA</td>
+                    <td class="positivo">SIM</td>
+                    <td class="negativo">NÃO</td>
+                    <td class="positivo">SIM</td>
+                </tr>
+                <tr>
+                    <td>ALHO</td>
+                    <td class="negativo">NÃO</td>
+                    <td class="positivo">SIM</td>
+                    <td class="negativo">NÃO</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="contato">
+        <h2>Contato</h2>
+        <form action="">
+            <label for="nome">Nome</label><br/>
+            <input type="text" maxlength="30" id="nome" placeholder="DIGITE SEU NOME"/><br/>
+            <label for="email">E-mail</label><br/>
+            <input type="text" maxlength="30" id="email" placeholder="DIGITE SEU E-MAIL"/><br/>
+            <label for="email">Mensagem</label><br/>
+            <textarea cols="40" rows="10" maxlength="100" id="mensagem" placeholder="DIGITE SUA MENSAGEM"/></textarea><br/>
+            <input type="submit" value="Enviar"/>
+        </form>
+        </section>
+        <br/><footer><p>&copy; Todos os direitos reservados para fulano.</p></footer>
+</body>
+</html>
