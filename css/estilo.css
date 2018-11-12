@@ -1,0 +1,69 @@
+
+body {
+    color: white;
+    background-color:#060606;
+    background-image: url("../img/fundo.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+header {
+    height: 100px;
+    background-color: rgba(51, 51, 51, 0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background: #2a2a2a;
+    border: 1;
+}
+
+td, th {
+    /*border: 1px, #000, solid;*/
+    color: white;
+    font-size: 12px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;/*deixar maiuscula*/
+}
+
+.positivo {
+    color: #87b50f;
+}
+
+.negativo {
+    color: #fb3958;
+}
+
+nav ul li a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+nav ul li {
+    display: inline-block;
+   /*width: 100px;*/
+    padding: 10px;
+}
+
+footer {
+    background: #060606;
+    padding: 35px 0 10px 0;
+}
+
+footer p {
+    font-size: 12px;
+    text-align: center;
+}
